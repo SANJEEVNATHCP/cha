@@ -1,0 +1,39 @@
+# Backend Requirements (FastAPI + Gen AI)
+FastAPI==0.104.1
+uvicorn==0.24.0
+
+# Database and ORM
+SQLAlchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.13.0
+
+# Authentication
+PyJWT==2.8.0
+python-jose==3.3.0
+passlib==1.7.4
+bcrypt==4.1.1
+
+# Generative AI
+google-generativeai==0.3.0
+
+# Real-time Communication
+python-socketio==5.10.0
+python-engineio==4.8.0
+
+# Async Processing
+celery==5.3.4
+redis==5.0.1
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+flask-cors==4.0.0
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Production
+gunicorn==23.0.0
