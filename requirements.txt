@@ -21,3 +21,6 @@ gunicorn==23.0.0
 
 # Database (optional - for PostgreSQL on Railway)
 psycopg2-binary==2.9.9
+
+streamlit
+
